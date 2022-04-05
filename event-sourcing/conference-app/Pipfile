@@ -7,11 +7,17 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 kafka-python = "*"
+msgpack = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 isort = "*"
-black = "*"
 flake8 = "*"
+black = "*"
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
